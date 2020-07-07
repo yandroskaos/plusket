@@ -1,12 +1,11 @@
 <script>
-	
-	let result = ""
+	import axios from "axios";
 
-	axios.get('https://ubrli.sse.codesandbox.io/api/hello/pablo')
-  	.then((response) => {
-    	result = response.data
-  	});
-	
+	let result = "";
+
+	axios.get("https://ubrli.sse.codesandbox.io/api/hello/pablo").then(response => {
+	  result = response.data;
+	});
 </script>
 
 <style>
