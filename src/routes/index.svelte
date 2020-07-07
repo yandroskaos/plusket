@@ -1,3 +1,14 @@
+<script>
+	
+	let result = ""
+
+	axios.get('https://ubrli.sse.codesandbox.io/api/hello/pablo')
+  	.then((response) => {
+    	result = response.data
+  	});
+	
+</script>
+
 <style>
 	h1,
 	figure,
@@ -45,4 +56,5 @@
 	<figcaption>HIGH FIVE!</figcaption>
 </figure>
 
+<p><strong>{result}.</strong></p>
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
