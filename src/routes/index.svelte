@@ -4,7 +4,7 @@
 	let result = "";
 
 	axios
-	  .get("https://plusket.vercel.app/api/hello/pablo")
+	  .get("https://plusket.com/api/hello/pablo")
 	  .then(response => {
 	    result = response.data;
 	  })
