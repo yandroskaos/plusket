@@ -3,9 +3,17 @@
 
 	let result = "";
 
-	axios.get("https://ubrli.sse.codesandbox.io/api/hello/pablo").then(response => {
-	  result = response.data;
-	});
+	axios
+	  .get("https://plusket.vercel.app/api/hello/pablo")
+	  .then(response => {
+	    result = response.data;
+	  })
+	  .catch(e => {
+	    console.log(e);
+	    result = "There was an error in the api invocation";
+	  });
+
+	$: result = result;
 </script>
 
 <style>
@@ -55,5 +63,5 @@
 	<figcaption>HIGH FIVE!</figcaption>
 </figure>
 
-<p><strong>{result}.</strong></p>
+<p><strong>{result}</strong></p>
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
