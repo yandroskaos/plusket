@@ -10,7 +10,7 @@
 	  })
 	  .catch(e => {
 	    console.log(e);
-	    result = "There was an error in the api invocation";
+	    result = "There was an error in the api invocation: " + e;
 	  });
 
 	$: result = result;
