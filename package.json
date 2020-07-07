@@ -1,10 +1,10 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "plusket",
+  "description": "Plusket dev",
   "version": "0.0.1",
   "scripts": {
     "start": "sapper dev",
-    "dev": "sapper dev --port $PORT",
+    "dev": "sapper dev --port 3000",
     "build": "sapper export",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
@@ -21,5 +21,6 @@
     "svelte": "^3.0.0",
     "svelte-loader": "^2.9.0",
     "webpack": "^4.7.0"
-  }
+  },
+  "keywords": []
 }
