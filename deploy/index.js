@@ -4445,7 +4445,7 @@ var $author$project$Main$main = A2(
 				]),
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Comming soon')
+					$elm$html$Html$text('Coming soon')
 				]))
 		]));
 _Platform_export({'Main':{'init':_VirtualDom_init($author$project$Main$main)(0)(0)}});}(this));

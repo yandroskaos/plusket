@@ -6,5 +6,5 @@ import Html.Attributes exposing (..)
 main : Html msg
 main = div []
       [ img [class "center", src "assets/plusket-logo.svg"] []  
-      , h1 [class "text"] [text "Comming soon"]
+      , h1 [class "text"] [text "Coming soon"]
       ]
