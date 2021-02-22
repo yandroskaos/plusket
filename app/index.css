@@ -1,0 +1,15 @@
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+h1.text{
+	text-align:center;
+	margin:0 auto;
+	font-size:4vw;
+	text-transform:uppercase;
+	font-weight:900;
+	font-family:garamond;
+	margin:0 0 .5em 0;
+}
