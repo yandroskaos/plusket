@@ -3,7 +3,7 @@
 rem Compile app
 echo Compiling app...
 cd app
-call elm make src/Main.elm --output index.js
+call elm make src/Main.elm --optimize --output index.js
 if %ERRORLEVEL% neq 0 goto ErrorCompilingApp
 cd ..
 echo -------------------------

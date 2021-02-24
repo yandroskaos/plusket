@@ -1,3 +1,8 @@
+:root {
+  --mdc-theme-primary: #E5AA4A;
+  --mdc-theme-secondary: #2C3340;
+}
+
 img.center {
 	display: block;
 	margin-left: auto;
@@ -11,5 +16,14 @@ h1.text{
 	text-transform:uppercase;
 	font-weight:900;
 	font-family:garamond;
-	margin:0 0 .5em 0;
+	color: var(--mdc-theme-primary)
+}
+h5.text{
+	text-align:center;
+	margin:0 auto;
+	font-size:2vw;
+	text-transform:uppercase;
+	font-weight:900;
+	font-family:garamond;
+	color: var(--mdc-theme-secondary)
 }
